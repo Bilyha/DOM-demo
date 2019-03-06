@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="block1-wrapper">
+        <div class="component-wrapper">
+          <div class="div1" id="block1Div1">3</div>
+          <div class="input-block">
+            <p>// Two event handlers</p>
+            <span>
+              <input type="checkbox" id="stopImmediatePropagation1" />
+              <label for="stopImmediatePropagation"
+                >stopImmediatePropagation()</label
+              >
+            </span>
+            <span>
+              <input type="checkbox" id="stopPropagation1" />
+              <label for="stopPropagation">stopPropagation()</label>
+            </span>
+            <span>
+              <input type="checkbox" id="preventDefault" />
+              <label for="preventDefault">preventDefault()</label>
+            </span>
+          </div>
+        </div>
+        <div class="component-wrapper">
+          <div class="div2" id="block1Div2">2</div>
+          <div class="input-block">
+            <p>// One event handler</p>
+            <span>
+              <input type="checkbox" id="stopImmediatePropagation2" />
+              <label for="stopImmediatePropagation"
+                >stopImmediatePropagation()</label
+              >
+            </span>
+            <span>
+              <input type="checkbox" id="stopPropagation2" />
+              <label for="stopPropagation">stopPropagation()</label>
+            </span>
+            <span>
+              <input type="checkbox" id="preventDefault" />
+              <label for="preventDefault">preventDefault()</label>
+            </span>
+          </div>
+        </div>
+        <div class="component-wrapper">
+          <div class="div3" id="block1Div3">1</div>
+          <div class="input-block">
+            <p>// One event handler</p>
+            <span>
+              <input type="checkbox" id="stopImmediatePropagation3" />
+              <label for="stopImmediatePropagation"
+                >stopImmediatePropagation()</label
+              >
+            </span>
+            <span>
+              <input type="checkbox" id="stopPropagation3" />
+              <label for="stopPropagation">stopPropagation()</label>
+            </span>
+            <span>
+              <input type="checkbox" id="preventDefault" />
+              <label for="preventDefault">preventDefault()</label>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="block2-wrapper">
+        <div class="block2-div1" id="block2Div1">
+          3
+          <div class="block2-div2" id="block2Div2">
+            2
+            <div class="block2-div3" id="block2Div3">1</div>
+          </div>
+        </div>
+        <span>
+          <input type="checkbox" id="capturing" />
+          <label for="capturing">Capturing</label>
+        </span>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
